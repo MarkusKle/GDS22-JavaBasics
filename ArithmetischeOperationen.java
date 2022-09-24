@@ -1,7 +1,7 @@
 public class ArithmetischeOperationen {
     /**
      * Ausführung aller Arithmetischer Operationen und Ausgabe
-     *
+     * @param args
      */
     public static void main(String[] args) {
 
@@ -39,6 +39,9 @@ public class ArithmetischeOperationen {
         System.out.println("++b");
         System.out.println(++b); // ich erwarte mir 3
         System.out.println("b = " + b); // ich erwarte mir 3
+
+
+
 
 
 
