@@ -9,5 +9,16 @@ public class Calculator {
         ergebnis = zahl1 + zahl2;
 
         System.out.println("Mein Name ist " + rechnerName + ": " + ergebnis);
+
+
+        //soutv
+        System.out.println("ergebnis = " + ergebnis);
+
+        // STRG + ALT + V automatische datentyp erzeugen
+        int ergebnis2 = zahl1 + zahl2;
+        System.out.println("ergebnis2 = " + ergebnis2);
+
+
+
     }
 }
