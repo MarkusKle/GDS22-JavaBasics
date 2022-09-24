@@ -27,6 +27,8 @@ public class ArithmetischeOperationen {
         System.out.println("a % b = " + result);
 
 
+        // Pre- & Post Inkrement
+
         // a++ => beduetet a = a + 1
         System.out.println("a++");
         // ich erwarte mir 3
@@ -37,6 +39,8 @@ public class ArithmetischeOperationen {
         System.out.println("++b");
         System.out.println(++b); // ich erwarte mir 3
         System.out.println("b = " + b); // ich erwarte mir 3
+
+
 
 
     }
