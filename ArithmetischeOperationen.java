@@ -19,7 +19,7 @@ public class ArithmetischeOperationen {
         System.out.println("a * b = " + result);
 
         // Typumwandlung von int auf double
-        // Andere möglichkeit:  double ergebnis4 = a / (1.0 * b);
+        // Andere möglichkeit:  double result1 = a / (1.0 * b);
         double result1 = (double) a / (double) b;
         System.out.println("a / b = " + result1);
 
