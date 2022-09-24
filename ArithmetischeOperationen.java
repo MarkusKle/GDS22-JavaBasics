@@ -1,12 +1,12 @@
 public class ArithmetischeOperationen {
     /**
      * Ausführung aller Arithmetischer Operationen und Ausgabe
-     * @param args
+     *
      */
     public static void main(String[] args) {
 
-        byte a = 9;
-        byte b = 7;
+        byte a = 3;
+        byte b = 2;
         int result;
 
         result = a + b;
@@ -25,6 +25,19 @@ public class ArithmetischeOperationen {
 
         result = a % b;
         System.out.println("a % b = " + result);
+
+
+        // a++ => beduetet a = a + 1
+        System.out.println("a++");
+        // ich erwarte mir 3
+        System.out.println(a++);
+        System.out.println("a = " + a); // ich erwarte mir 4
+
+        // ++b
+        System.out.println("++b");
+        System.out.println(++b); // ich erwarte mir 3
+        System.out.println("b = " + b); // ich erwarte mir 3
+
 
     }
 }
