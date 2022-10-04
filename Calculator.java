@@ -1,24 +1,54 @@
 public class Calculator {
     public static void main(String[] args) {
 
-        byte zahl1 = 5;
-        byte zahl2 = 7;
-        int ergebnis;
-        String rechnerName = "Markus";
+        int numberOne;
+        int numberTwo;
 
-        ergebnis = zahl1 + zahl2;
+        int numberResult;
 
-        System.out.println("Mein Name ist " + rechnerName + ": " + ergebnis);
+        numberResult= addition(9,5);
+        System.out.println("Addieren = " + numberResult);
 
+        numberResult = subtrahieren(9,5);
+        System.out.println("Subtrahieren = " + numberResult);
 
-        //soutv
-        System.out.println("ergebnis = " + ergebnis);
+        numberResult = multiplizieren(9,5);
+        System.out.println("Multiplizieren = " + numberResult);
 
-        // STRG + ALT + V automatische datentyp erzeugen
-        int ergebnis2 = zahl1 + zahl2;
-        System.out.println("ergebnis2 = " + ergebnis2);
+        double numberResult1 = dividieren(9,5);
+        System.out.println("Dividieren = " + numberResult1);
 
+        numberResult = modulo(9,5);
+        System.out.println("Modulo = " + numberResult);
 
-
+    }
+    public static int addition(int numberOne, int numberTwo) {
+        int numberResult = numberOne + numberTwo;
+        return numberResult;
+    }
+    public static int subtrahieren(int numberOne, int numberTwo) {
+        int numberResult = numberOne - numberTwo;
+        return numberResult;
+    }
+    public  static int multiplizieren(int numberOne, int numberTwo) {
+        int numberResult = numberOne * numberTwo;
+        return numberResult;
+    }
+    public static double dividieren(int numberOne, double numberTwo) {
+        if (numberTwo == 0) {
+            return 0;
+        }
+        else {
+            double numberResult = numberOne / numberTwo;
+            return numberResult;
+        }
+    }
+    public static int modulo(int numberOne, int numberTwo) {
+        int numberResult = numberOne % numberTwo;
+        return numberResult;
+    }
+    public static int power(int a) {
+        int result = a * a;
+        return result;
     }
 }
